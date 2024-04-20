@@ -5,7 +5,6 @@ from sklearn.model_selection import train_test_split
 import matplotlib.pyplot as plt
 import statistics
 import math
-import pandas as pd
 import copy
 import numpy as np
 import random
@@ -467,7 +466,7 @@ for x in ntreeArray:
     forestPrecision = []
     forestRecall = []
     forestFScore = []
-    rows = openFile("C:/Users/mike1/Documents/Coding Projects/CS589 Machine Learning/Homework 3/datasets/hw3_wine.csv")#Put the filepath for house_votes_84.csv here
+    rows = openFile("C:/Users/mike1/Documents/GitHub/Random-Forest/wine.csv")#Put the filepath for house_votes_84.csv here
     categoriesForLaterForLater = copy.deepcopy(rows[0][1:len(rows[0])])
     categories =copy.deepcopy(rows[0][1:len(rows[0])]);
 
